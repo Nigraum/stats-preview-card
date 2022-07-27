@@ -23,6 +23,10 @@ body {
   font-size: 15px;
 }
 
+main {
+  height: 90%;
+}
+
 .card {
   width: 375px;
   height: 90%;
@@ -30,6 +34,17 @@ body {
   border-radius: 5px;
   text-align: center;
   font-family: 'Inter', sans-serif;
+}
+
+.meeting {
+  height: 32%;
+  width: 100%;
+  background: linear-gradient(hsla(277, 100%, 25%, .514) 100%, rgba(255, 255, 255, 0)), url('./images/image-header-mobile.jpg');
+  background-size: cover;
+}
+
+.info {
+  color: var(--white);
 }
 
 .footer { 
