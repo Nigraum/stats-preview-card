@@ -23,6 +23,15 @@ body {
   font-size: 15px;
 }
 
+.card {
+  width: 375px;
+  height: 90%;
+  background-color: var(--card-bg);
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
 .footer { 
   font-size: 11px; 
   text-align: center; 
